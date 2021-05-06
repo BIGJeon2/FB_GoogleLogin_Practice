@@ -33,11 +33,6 @@ class MainActivity : AppCompatActivity() {
             .requestEmail()
             .build()
         googlesignInClient = getClient(this, gso)
-        binding.signInButton.setOnClickListener {
-            signIn()
-        }
-
-
     }
 
     private fun signIn() {
@@ -70,6 +65,8 @@ class MainActivity : AppCompatActivity() {
                     Log.d(TAG, "로그인 성공")
                     val user = auth!!.currentUser
                     loginSuccess()
+                    val chat_room_intent = Intent(this, Set_User_Profile::class.java)
+                    startActivity(chat_room_intent)
                 } else {
                     // If sign in fails, display a message to the user.
                     Log.w(TAG, "signInWithCredential:failure", task.exception)

@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "896375428076",
+    "firebase_url": "https://login-service-practice-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "login-service-practice",
     "storage_bucket": "login-service-practice.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "896375428076-bkq8jdas3k5qle0d66mgk03560rfkflb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_login_servie_practice",
+            "certificate_hash": "2ce1162046675751d5be41adacf786a2a8993a7f"
+          }
+        },
         {
           "client_id": "896375428076-s9okacuj6at5i523jes78uopin3hiaf7.apps.googleusercontent.com",
           "client_type": 1,
